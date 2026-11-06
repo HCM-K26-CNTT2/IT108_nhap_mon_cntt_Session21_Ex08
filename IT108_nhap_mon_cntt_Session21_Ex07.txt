@@ -1,0 +1,23 @@
+﻿Bài 7: Chuẩn Hóa Cú Pháp Googling Sửa Lỗi Phần Mềm Điều Khiển Kiosk Trạm Sạc 
+Phần 1: Phân tích sai lầm trong tư duy tìm kiếm
+1. Phân tích vì sao Query 1 của bạn thực tập sinh là một 'Bad Query' điển hình? Thuật toán máy tìm kiếm bị nhiễu loạn như thế nào trước các câu văn nói dài dòng?
+* Query 1: 'thầy ơi tại sao máy tính trạm sạc của em cài phần mềm điều khiển bị lỗi không mở được vậy ạ'
+* Đây là một ‘Bad Query’ vì: nói quá chung chung, không đưa ra lỗi cụ thể, hệ điều hành đang sài.
+* Nó sẽ đưa ra nhiều trang web khác nhau, các bài viết quảng cáo cài đặt phần mềm diệt virus rác làm loạn thông tin khiến mất rất nhiều thời gian.
+
+
+2. Chỉ ra hiểm họa an ninh thông tin nghiêm trọng nếu nhân viên kỹ thuật click vào các kết quả của Query 3 để sửa máy trạm sạc của công ty.
+* Query 3: 'tải phần mềm fix lỗi access is denied crack full'
+* Phần mềm này có mã độc Trojan nên đây có thể là phần mềm fix lỗi nhưng nó sẽ âm thầm cài đặt tiến trình chạy ngầm chiếm quyền điều khiển HĐH
+Phần 2: Chuẩn hóa Cú pháp Tìm kiếm Chuyên nghiệp
+4. Xây dựng 03 câu lệnh tìm kiếm Google chuẩn kỹ sư (sử dụng phối hợp toán tử site:, ``, `-`):
+* Cú pháp 1: Tìm bài viết sửa lỗi chính xác trên diễn đàn Microsoft Community dành riêng cho Windows 11, loại bỏ Windows 7 và Windows 8.
+* site:techcommunity.microsoft.com “Windows 11” fix error -Win7 -Win8
+
+
+* Cú pháp 2: Tìm tài liệu đặc tả lỗi phân quyền cổng OCPP từ trang chủ của tổ chức liên minh sạc mở (openchargealliance.org).
+* site:openchargealliance.org OCPP specification authorization error 
+
+
+* Cú pháp 3: Tìm hướng dẫn sửa lỗi trên diễn đàn StackOverflow sạch bóng từ khóa quảng cáo và crack.
+* site:stackoverflow.com “how to fix” error -quangcao -crack
